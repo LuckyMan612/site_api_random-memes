@@ -1,7 +1,7 @@
 const memes = [
-  "https://i.pinimg.com/originals/61/2b/ff/612bff8412e03dc3c84ea5aabe743d51.jpg",
-  "https://i.pinimg.com/736x/5d/e5/c9/5de5c9e6e7fecfdca2c8a0a0a2a2f1f9.jpg",
-  "https://i.pinimg.com/736x/d8/b6/c1/d8b6c1e6f8d6c3f6a3e6baafd0d8afb1.jpg"
+  "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235339359.png?raw=true",
+  "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235407494.png?raw=true",
+  "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235622269.png?raw=true"
 ];
 const randomMeme = memes[Math.floor(Math.random() * memes.length)];
 
