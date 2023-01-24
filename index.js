@@ -13,7 +13,7 @@ function getRandomMeme() {
 const memeImg = document.getElementById("meme-img");
 memeImg.src = getRandomMeme();
 
-const API_URL = "https://raw.githubusercontent.com/LuckyMan612/site_api_random-memes/main/api.json?token=GHSAT0AAAAAAB44TTWDIKHOEVGQMPVLPBJEY6PYEPQ";
+const API_URL = "https://raw.githubusercontent.com/LuckyMan612/site_api_random-memes/main/api.json";
 const newData = { "meme": { "link": getRandomMeme() } };
 
 fetch(API_URL, {
