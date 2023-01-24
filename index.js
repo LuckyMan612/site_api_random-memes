@@ -2,7 +2,7 @@ const memes = [
   "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235339359.png?raw=true",
   "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235407494.png?raw=true",
   "https://github.com/LuckyMan612/site_api_random-memes/blob/main/memes/obraz_2023-01-24_235622269.png?raw=true",
-  "https://tenor.com/view/crane-brazil-grab-poor-car-gif-17372636"
+  "https://media.tenor.com/2ioL-cwe6LcAAAAd/crane-brazil.gif"
 ];
 const randomMeme = memes[Math.floor(Math.random() * memes.length)];
 
