@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Meme API</title>
+  <style>
+    /* CSS do stylizacji strony */
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+    #meme-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+    }
+    #meme-img {
+      max-width: 500px;
+    }
+    button{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Twój mem:</h1>
+  <div id="meme-section">
+    <img id="meme-img" src="" alt="Random Meme">
+  </div>
+  <button onclick="location.href='meme-link.html'">Pokaż link</button>
+  <script src="index.js"></script>
+</body>
+</html>
